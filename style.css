@@ -1,9 +1,33 @@
-h1 {
-    color: #0066ff
+h2 {
+    color: #0066ff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
 }
 
 nav {
-    color: darkslategray;
+   background-color:aquamarine;
+}
+iframe {
+    border:none;
+    margin: 0px;
+}
+
+body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14pt;
+}
+
+#navbar {
+    display:inline-block;
+    list-style-type: none;
+    color: white;
+    padding: 2px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+#navbar:visited {
+    color:white;
+}
+#navbar:hover {
+    background-color: palegreen;
 }
